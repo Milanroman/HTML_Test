@@ -1,0 +1,102 @@
+.services-block {
+  margin-top: 80px;
+}
+.ser-text h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #656b6f;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 15px;
+  text-align: left;
+  margin: 0;
+}
+.ser-text h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #333743;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.ser-text p {
+  font-family: 'PT Sans', sans-serif;
+  color: #656b6f;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.ser-btn {
+  text-transform: uppercase;
+  border-radius: 25px;
+  background-color: #ffc104;
+  border: none;
+  @include dimensions(157px, 40px);
+  margin-top: 20px;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  color:  rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  line-height: 21px;
+}
+.ser-box {
+  background-color: white;
+  position: relative;
+  height: 150px;
+  border: 1px solid #bdbdbd;
+  &:hover {
+    cursor: pointer;
+  }
+
+}
+.ser-img{
+  margin-top: 55px;
+  margin-left: 35px;
+  display: inline-block;
+}
+.ser-box h5 {
+  position: absolute;
+  text-transform: uppercase;
+  left: 100px;
+  top: 50px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333743;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: left;
+}
+.ser-box h6 {
+  position: absolute;
+  left: 100px;
+  top: 85px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color:  #656b6f;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 12px;
+  text-align: left;
+}
+.ser-hover {
+  display: none;
+}
+.ser-box p {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 285px;
+  font-family: 'PT Sans', sans-serif;
+  color: #656b6f;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+}
+.margin-ser-box {
+  margin-top: 30px;
+}

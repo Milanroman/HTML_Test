@@ -1,0 +1,49 @@
+.clients {
+  height: 800px;
+}
+.clients-img {
+  float: right;
+}
+.clients-text {
+  float: left;
+  padding-top: 30px;
+}
+.clients-logo {
+  position: relative;
+  width: 668px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+.cl-logo-block {
+  display: inline-block;
+  left: 0;
+  padding-top: 30px;
+  @include dimensions(220px, 150px);
+}
+.cl-logo-block img {
+  display: block;
+  margin: 0 auto;
+}
+hr {
+  border: none;
+  margin: 0;
+  background-color: #dbdbdb;
+  width: 660px;
+  height: 1px;
+}
+.hudson, .woodwork {
+  padding-top: 25px;
+}
+.client-line1 {
+  position: absolute;
+  left: 221px;
+  top: 60px;
+  height: 311px;
+}
+.client-line2 {
+  position: absolute;
+  float: right;
+  right: 221px;
+  top: 60px;
+  height: 311px;
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 1900px) {
+  .project {
+    @include dimensions(342px, 342px);
+  }
+
+}
+@media screen and (max-width: 1500px) {
+  .project {
+    @include dimensions(260px, 260px);
+  }
+
+}

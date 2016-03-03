@@ -1,0 +1,91 @@
+.tm-box {
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+.con-z {
+  position: relative;
+}
+.tm-bg {
+  top: 0;
+  position: absolute;
+  height: 750px;
+}
+.ts-bg-img {
+  position: relative;
+  @include dimensions(100%, 750px);
+}
+.ts-text h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 85px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 15px;
+  text-align: center;
+}
+.ts-text h4 {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 33px;
+  font-weight: 200;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 26px;
+}
+.ts-text p {
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 30px;
+}
+.rov-height {
+ height: 145px;
+}
+.testimonials-block {
+  margin-top: 60px;
+  position: relative;
+}
+.testimonials-img {
+  display: inline-block;
+  position: absolute;
+
+}
+.testimonials-text {
+  margin-left: 90px;
+  margin-top: 15px;
+  display: inline-block;
+}
+.testimonials-text h5 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+.testimonials-text p {
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 12px;
+  line-height: 10px;
+  text-align: left;
+  font-style: italic;
+}
+.testimonials-p {
+  margin-top: 20px;
+  font-family: 'PT Sans', sans-serif;
+  color:  rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17px;
+  margin-bottom: 0;
+}

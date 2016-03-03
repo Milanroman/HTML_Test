@@ -1,0 +1,44 @@
+.projects-block {
+ width: 100%;
+}
+.projects {
+  display: block;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.projects h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color:  #656b6f;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 15px;
+}
+.projects h4 {
+  font-family: 'Open Sans', sans-serif;
+  color:  #333743;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.project {
+  position: relative;
+  margin-left: 30px;
+  display: inline-block;
+  @include dimensions(442px, 442px);
+  margin-top: 60px;
+}
+.project img {
+  @include dimensions(100%, 100%);
+}
+.project h6 {
+  position: absolute;
+
+  margin: 0 auto;
+
+}

@@ -1,0 +1,102 @@
+.skills-block {
+  display: block;
+  @include dimensions(100%, 800px);
+}
+.skills-img {
+  display: inline-block;
+  @include dimensions(50%, 100%);
+}
+.skills-img img {
+  @include dimensions(100%, 100%);
+}
+.skills-text {
+  display: inline-block;
+  @include dimensions(50%, 100%);
+  float: right;
+  background-color:  #f9f9f9;
+}
+.skills-text h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 85px;
+  font-family: 'Open Sans', sans-serif;
+  color: #656b6f;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 15px;
+  text-align: center;
+}
+.skills-text h4 {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #333743;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.divider {
+  margin: 0 auto;
+  width: 297px;
+  height: 8px;
+}
+.img-divider {
+  @include dimensions(100%, 100%);
+}
+
+.skills-option {
+  width: 555px;
+  margin: 0 auto;
+}
+.skills-option p {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'PT Sans', sans-serif;
+  color: #656b6f;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+#skills-box1 {
+  margin-top: 55px;
+  height: 100px;
+}
+.skills-options {
+  display: inline-block;
+  position: absolute;
+  @include dimensions(100px, 100px);
+}
+.skills-options1 img {
+  @include dimensions(100%, 100%);
+}
+.skills-options-text {
+  display: inline-block;
+}
+.skills-options-text h5 {
+  margin: 0;
+  padding: 20px 0 0 120px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333743;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: left;
+}
+.skills-options-text p {
+  padding: 10px 0 0 120px;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  color: #656b6f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+#skills-box2, #skills-box3 {
+  margin-top: 40px;
+  height: 100px;
+}
