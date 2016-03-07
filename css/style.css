@@ -6160,12 +6160,12 @@ nav {
 .tm-bg {
   top: 0;
   position: absolute;
-  height: 750px; }
+  height: 100%; }
 
 .ts-bg-img {
   position: relative;
   width: 100%;
-  height: 750px; }
+  height: 100%; }
 
 .ts-text h2 {
   margin-top: 0;
@@ -6331,8 +6331,9 @@ hr {
   text-align: center; }
 
 .team-person img {
-  margin-left: 70px;
-  margin-top: 20px; }
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px; }
 
 .person-text {
   display: block;
@@ -6348,12 +6349,10 @@ hr {
   margin-bottom: 0; }
 
 .person-social {
-  margin-top: 15px;
-  margin-left: 85px;
-  padding: 0; }
+  margin: 15px 0 0 85px; }
 
 .person-social li {
-  display: inline;
+  display: inline-block;
   margin-right: 15px; }
   .person-social li:last-of-type {
     margin-right: 0; }
@@ -6377,11 +6376,7 @@ hr {
   color: #61abea; }
 
 .google {
-  margin: 0 !important;
-  display: inline;
-  width: 14px;
-  height: 16px;
-  padding-bottom: 2px; }
+  color: #be4a39; }
 
 #radio-person {
   margin-top: 40px;
@@ -6629,7 +6624,8 @@ footer h5 {
     margin-right: 0; }
 
 .follow-instagram-row2 {
-  margin-top: 6px; }
+  margin-top: 6px;
+  margin-bottom: 30px; }
 
 .recent-post h6 {
   font-family: 'PT Sans', sans-serif;
@@ -6717,3 +6713,42 @@ footer h5 {
   .project {
     width: 260px;
     height: 260px; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .slider h2 {
+    font-size: 40px; }
+  .slider p {
+    font-size: 12px; }
+  .forward, .back {
+    top: 400px; }
+  .slider1-text {
+    top: 350px; }
+  .slider ul li {
+    height: 700px; }
+  .slider {
+    height: 700px; }
+  .first-tb img {
+    width: 240px; }
+  .first-tb h3 {
+    font-size: 13px; }
+  .skills-img {
+    display: none; }
+  .skills-text {
+    width: 100%;
+    height: 100%; }
+  .tm-box {
+    height: 850px; }
+  .testimonials-text h5 {
+    font-size: 12px; }
+  .testimonials-text p {
+    font-size: 11px; }
+  .team-box {
+    height: 1200px; }
+  .person-text {
+    margin-left: 72px; }
+  .pt-box h5 {
+    font-size: 30px; }
+  footer {
+    height: 710px; }
+  #footer-hr {
+    top: 670px; } }

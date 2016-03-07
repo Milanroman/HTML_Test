@@ -36,8 +36,9 @@
   text-align: center;
 }
 .team-person img {
-  margin-left: 70px;
-  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 .person-text {
   display: block;
@@ -53,12 +54,11 @@
   margin-bottom: 0;
 }
 .person-social {
-  margin-top: 15px;
-  margin-left: 85px;
-  padding: 0;
+
+  margin: 15px 0 0 85px;
 }
 .person-social li {
-  display: inline;
+  display: inline-block;
   margin-right: 15px;
   &:last-of-type {
     margin-right: 0;
@@ -83,10 +83,7 @@
   color:  #61abea;
 }
 .google {
-  margin: 0 !important;
-  display: inline;
-  @include dimensions(14px, 16px);
-  padding-bottom: 2px;
+  color: #be4a39;
 }
 #radio-person {
   margin-top: 40px;

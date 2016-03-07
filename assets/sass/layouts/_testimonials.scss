@@ -9,11 +9,11 @@
 .tm-bg {
   top: 0;
   position: absolute;
-  height: 750px;
+  height: 100%;
 }
 .ts-bg-img {
   position: relative;
-  @include dimensions(100%, 750px);
+  @include dimensions(100%, 100%);
 }
 .ts-text h2 {
   margin-top: 0;
